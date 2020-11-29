@@ -1,3 +1,0 @@
-﻿  VkRenderer.cpp
-LINK : warning LNK4098: Ĭ�Ͽ⡰MSVCRT�����������ʹ�ó�ͻ����ʹ�� /NODEFAULTLIB:library
-  Vulkan-Framework.vcxproj -> F:\Learn-RTR\x64\Debug\Vulkan-Framework.exe
