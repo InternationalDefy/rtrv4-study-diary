@@ -2,6 +2,12 @@
 *.suo
 *.db
 *.ipch
+*.vc
+
+# Build log
+*.log
+*.tlog
+*.lastbuildstate
 
 # Prerequisites
 *.d
