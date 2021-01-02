@@ -41,3 +41,13 @@
 *.exe
 *.out
 *.app
+*.db-shm
+*.opendb
+*.db-wal
+*.idb
+*.pdb
+*.recipe
+*.enc
+*.ilk
+*.iobj
+*.ipdb

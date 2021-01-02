@@ -138,7 +138,7 @@ struct SwapChainSupportDetails {
 	std::vector<VkPresentModeKHR> presentModes;
 };
 
-class VkRenderer {
+class VulkanApplication {
 public:
 	void run() {
 		initWindow();
@@ -227,7 +227,7 @@ private:
 		return buffer;
 	}
 	static void framebufferResizeCallback(GLFWwindow* window, int width, int height) {
-		auto app = reinterpret_cast<VkRenderer*>(glfwGetWindowUserPointer(window));
+		auto app = reinterpret_cast<VulkanApplication*>(glfwGetWindowUserPointer(window));
 		app->framebufferResized = true;
 	}
 	// Simply output a message
@@ -1564,7 +1564,7 @@ private:
 };
 
 int main() {
-	VkRenderer app;
+	VulkanApplication app;
 
 	app.run();
 
